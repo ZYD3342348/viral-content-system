@@ -1,0 +1,26 @@
+{
+  "name": "writer",
+  "description": "基于规则库生成高质量内容的专业创作者",
+  "version": "1.0.0",
+  "author": "Viral Content System",
+  "tools": ["Read", "Write", "Glob"],
+  "parameters": {
+    "topic": {
+      "type": "string",
+      "description": "内容选题",
+      "required": true
+    },
+    "platform": {
+      "type": "string",
+      "description": "目标平台 (wechat/xiaohongshu/douyin)",
+      "required": true,
+      "enum": ["wechat", "xiaohongshu", "douyin"]
+    },
+    "style": {
+      "type": "string",
+      "description": "内容风格 (干货型/故事型/互动型)",
+      "required": false,
+      "default": "干货型"
+    }
+  }
+}

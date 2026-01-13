@@ -1,0 +1,33 @@
+{
+  "platform": "douyin",
+  "last_updated": "2026-01-12",
+  "version": "1.0",
+  "rules": [
+    {
+      "id": "douyin_hook_001",
+      "category": "hook",
+      "pattern": "前3秒钩子",
+      "description": "前3秒必须有强烈的视觉或信息冲击",
+      "examples": [
+        "你绝对想不到...",
+        "震惊！原来...",
+        "这个方法太绝了！"
+      ],
+      "score": 0.95,
+      "source_count": 20,
+      "tags": ["钩子", "前3秒", "冲击力"]
+    },
+    {
+      "id": "douyin_rhythm_001",
+      "category": "rhythm",
+      "pattern": "快节奏+转折",
+      "description": "节奏紧凑，每10-15秒一个信息点或转折",
+      "examples": [
+        "开头抛问题 → 5秒后给答案 → 10秒后反转 → 结尾留悬念"
+      ],
+      "score": 0.90,
+      "source_count": 15,
+      "tags": ["节奏", "转折", "信息密度"]
+    }
+  ]
+}

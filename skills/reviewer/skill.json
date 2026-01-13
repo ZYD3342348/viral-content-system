@@ -1,0 +1,20 @@
+{
+  "name": "reviewer",
+  "description": "评估内容质量并提供改进建议的专业审核者",
+  "version": "1.0.0",
+  "author": "Viral Content System",
+  "tools": ["Read", "Write"],
+  "parameters": {
+    "content_file": {
+      "type": "string",
+      "description": "要审核的内容文件路径",
+      "required": true
+    },
+    "platform": {
+      "type": "string",
+      "description": "目标平台 (wechat/xiaohongshu/douyin)",
+      "required": true,
+      "enum": ["wechat", "xiaohongshu", "douyin"]
+    }
+  }
+}

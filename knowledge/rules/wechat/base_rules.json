@@ -1,0 +1,33 @@
+{
+  "platform": "wechat",
+  "last_updated": "2026-01-12",
+  "version": "1.0",
+  "rules": [
+    {
+      "id": "wechat_title_001",
+      "category": "title",
+      "pattern": "悬念式标题",
+      "description": "制造悬念，引发好奇心",
+      "examples": [
+        "这个方法，让我3个月收入翻倍",
+        "为什么聪明人都在做这件事？",
+        "我用了10年才明白的道理"
+      ],
+      "score": 0.85,
+      "source_count": 10,
+      "tags": ["悬念", "好奇心", "故事性"]
+    },
+    {
+      "id": "wechat_structure_001",
+      "category": "structure",
+      "pattern": "故事+干货+升华",
+      "description": "用故事引入，提供干货内容，最后升华主题",
+      "examples": [
+        "开头讲个人经历 → 中间分享方法论 → 结尾升华价值观"
+      ],
+      "score": 0.88,
+      "source_count": 8,
+      "tags": ["故事", "干货", "升华"]
+    }
+  ]
+}

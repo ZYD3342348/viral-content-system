@@ -1,0 +1,88 @@
+{
+  "wechat": {
+    "name": "微信公众号",
+    "content_length": {
+      "min": 800,
+      "max": 5000,
+      "optimal": 2000
+    },
+    "title_length": {
+      "min": 10,
+      "max": 64
+    },
+    "features": {
+      "supports_emoji": true,
+      "supports_images": true,
+      "supports_video": true,
+      "supports_hashtags": false
+    },
+    "style_preferences": [
+      "深度分析",
+      "故事叙述",
+      "干货总结"
+    ],
+    "engagement_tactics": [
+      "引导关注",
+      "文末互动",
+      "系列预告"
+    ]
+  },
+  "xiaohongshu": {
+    "name": "小红书",
+    "content_length": {
+      "min": 300,
+      "max": 2000,
+      "optimal": 800
+    },
+    "title_length": {
+      "min": 10,
+      "max": 20
+    },
+    "features": {
+      "supports_emoji": true,
+      "supports_images": true,
+      "supports_video": true,
+      "supports_hashtags": true,
+      "max_hashtags": 10
+    },
+    "style_preferences": [
+      "图文结合",
+      "步骤化",
+      "视觉冲击"
+    ],
+    "engagement_tactics": [
+      "话题标签",
+      "评论引导",
+      "收藏提醒"
+    ]
+  },
+  "douyin": {
+    "name": "抖音/视频号",
+    "content_length": {
+      "min": 200,
+      "max": 1000,
+      "optimal": 500
+    },
+    "title_length": {
+      "min": 10,
+      "max": 30
+    },
+    "features": {
+      "supports_emoji": true,
+      "supports_images": false,
+      "supports_video": true,
+      "supports_hashtags": true,
+      "max_hashtags": 5
+    },
+    "style_preferences": [
+      "短视频脚本",
+      "节奏紧凑",
+      "钩子前置"
+    ],
+    "engagement_tactics": [
+      "前3秒钩子",
+      "中间转折",
+      "结尾悬念"
+    ]
+  }
+}

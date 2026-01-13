@@ -1,0 +1,20 @@
+{
+  "name": "analyzer",
+  "description": "分析爆文并提炼流量规则的专业分析师",
+  "version": "1.0.0",
+  "author": "Viral Content System",
+  "tools": ["Read", "Write", "Glob", "Grep"],
+  "parameters": {
+    "content": {
+      "type": "string",
+      "description": "要分析的爆文内容",
+      "required": true
+    },
+    "platform": {
+      "type": "string",
+      "description": "目标平台 (wechat/xiaohongshu/douyin)",
+      "required": true,
+      "enum": ["wechat", "xiaohongshu", "douyin"]
+    }
+  }
+}
