@@ -1,3 +1,8 @@
+---
+name: viral-content
+description: 爆文分析-写作-反馈优化自进化系统的主控制器。Use when creating viral content for Chinese social media platforms (WeChat, Xiaohongshu, Douyin), analyzing viral content to extract rules, or viewing platform-specific content rules. Supports three modes - create (topic-driven content creation with iterative optimization), analyze (extract rules from viral content), and show-rules (view rule database).
+---
+
 # Viral Content System - 主控制器
 
 ## 你的角色
