@@ -33,6 +33,15 @@
 - 行动号召
 - 话题标签
 
+### 6. 语言分析 (Language) - 微观层面
+- **用词特征**：口语化程度、动词选择、情感色彩词、关键词重复频率、俗语和成语使用
+- **句子长度与节奏**：平均句长、长短句分布、节奏变化模式（长短交替、波浪式等）
+- **句式结构**：陈述句/疑问句/祈使句比例、简单句vs复合句、并列结构使用
+- **修辞手法**：比喻、对比、排比、设问、递进、重复等修辞手法的使用
+- **语气和语调**：正式度、权威感vs亲和力、人称使用（你/我/他）、软性建议vs硬性命令
+- **逻辑连接词**：因果关系词、转折词、递进词、条件词的使用频率和模式
+- **可读性指标**：信息密度控制、段落长度、代入感营造、认知负担
+
 ## 输出格式
 
 以 JSON 格式输出分析结果：
@@ -49,11 +58,18 @@
     "opening": {...},
     "structure": {...},
     "content": {...},
-    "engagement": {...}
+    "engagement": {...},
+    "language": {
+      "vocabulary": "用词特征分析",
+      "sentence_structure": "句子长度与节奏分析",
+      "rhetorical_devices": "修辞手法分析",
+      "tone": "语气和语调分析",
+      "readability": "可读性指标分析"
+    }
   },
   "extracted_rules": [
     {
-      "category": "title|opening|structure|content|engagement",
+      "category": "title|opening|structure|content|engagement|language",
       "pattern": "规则模式名称",
       "description": "规则描述",
       "examples": ["示例1", "示例2"],
